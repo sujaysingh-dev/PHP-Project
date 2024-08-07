@@ -1,0 +1,70 @@
+<center>
+<h1>Search Particular Data</h1>
+<form name=f method=post action=PartsearchRoomtype.php>
+<Select name=s>
+ <option>roomtype</option>
+ <option>roomname</option>
+ <option>roomprice</option>
+</select>
+<input type=text name=t1 placeholder="Input Record">
+<input type=submit value="Find the record" name=b1>
+</form>
+</center>
+<style>
+        *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+        }
+        body{
+                position: relative;
+                height: 19%;
+        }
+        h1{
+                margin-top: 80px;
+                font-size: 50px;
+                text-shadow: 2px 2px rgb(151, 144, 144);
+        }
+        form{
+                margin-top: 70px;
+                border: 2px solid red;
+                box-shadow: 10px 10px 40px rgb(255, 34, 0);
+                width: 500px;
+                border-radius: 10px;
+        }
+        form:hover{
+               box-shadow: 10px 10px 50px blue;
+        }
+        select{
+                margin-top: 10px;
+                padding: 5px;
+                font-size: 30px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                cursor: pointer;
+                border: 2px solid black;
+                border-radius: 5px;
+        }
+        input[type=text]{
+                margin-top: 10px;
+                padding: 5px;
+                font-size: 30px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                cursor: pointer;
+        }
+        input[type=submit]{
+                margin-top: 10px;
+                color: white;
+                background-color: black;
+                padding: 5px;
+                font-size: 30px;
+                border-radius: 5px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                transition: .5s;
+                margin-bottom: 10px;
+        }
+        input[type=submit]:hover{
+                cursor: pointer;
+                background-color: white;
+                color: black;
+        }
+</style>
